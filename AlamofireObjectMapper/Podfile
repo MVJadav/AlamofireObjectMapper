@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+target 'SignUp' do
+   pod 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire'
+   pod 'AlamofireObjectMapper' ,:git => 'https://github.com/tristanhimmelman/AlamofireObjectMapper'
+   pod 'AlamofireImage', :git => 'https://github.com/Alamofire/AlamofireImage'
+   pod 'IQKeyboardManagerSwift', :git => 'https://github.com/hackiftekhar/IQKeyboardManager'
+   pod 'BSImagePicker', :git => 'https://github.com/mikaoj/BSImagePicker'
+end

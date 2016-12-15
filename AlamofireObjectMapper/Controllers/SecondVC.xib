@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SecondVC" customModule="SignUp" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QBq-RA-BSu">
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="77H-me-XnB">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="j3J-cx-TUS"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.2470588235" green="0.72549019609999998" blue="0.68627450980000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="a86-Pb-jyK"/>
+                        <constraint firstItem="77H-me-XnB" firstAttribute="centerX" secondItem="QBq-RA-BSu" secondAttribute="centerX" id="akl-RQ-swV"/>
+                        <constraint firstItem="77H-me-XnB" firstAttribute="top" secondItem="QBq-RA-BSu" secondAttribute="top" constant="20" id="jjR-hE-rjl"/>
+                        <constraint firstAttribute="bottom" secondItem="77H-me-XnB" secondAttribute="bottom" constant="10" id="lE3-uU-8k3"/>
+                    </constraints>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="bja-Ne-43c">
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1vg-qW-uVb">
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i8y-E2-Fx0">
+                            <color key="backgroundColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2xe-Q1-VZp">
+                            <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bcg-w1-T0h">
+                            <color key="backgroundColor" red="0.28235294119999998" green="0.7725490196" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="QBq-RA-BSu" secondAttribute="trailing" id="5mF-FK-sr8"/>
+                <constraint firstItem="QBq-RA-BSu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="76h-Nl-NPn"/>
+                <constraint firstAttribute="trailing" secondItem="bja-Ne-43c" secondAttribute="trailing" constant="10" id="fFe-HL-8y3"/>
+                <constraint firstItem="QBq-RA-BSu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="flL-8S-a33"/>
+                <constraint firstAttribute="bottom" secondItem="bja-Ne-43c" secondAttribute="bottom" priority="250" constant="357" id="fsB-zM-EDo"/>
+                <constraint firstItem="bja-Ne-43c" firstAttribute="top" secondItem="QBq-RA-BSu" secondAttribute="bottom" constant="8" id="hCg-tF-CAD"/>
+                <constraint firstItem="bja-Ne-43c" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="kF5-ag-S2P"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="52.5"/>
+        </view>
+    </objects>
+</document>
