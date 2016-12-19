@@ -7,13 +7,11 @@
 
 import Foundation
 
-class ServiceUrl:NSObject{
+class ServiceUrl:NSObject
+    static let Base = "http://abcd.com" 
     
-    //static let Base = "http://192.168.1.105:7860/"
-    static let Base = "http://49.50.81.121:82/" //Nikhil Live
-    
-    static let Login =  Base + "/security/login"
-    static let Signup = Base + "/security/signup"
-    static let ProfileImageUpload = Base + "/security/uploadfile"
+    static let Login =  Base + "/login"
+    static let Signup = Base + "/signup"
+    static let ProfileImageUpload = Base + "/uploadfile"
     
 }
