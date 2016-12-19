@@ -18,7 +18,7 @@ class Constant
     class HttpParameter
     {
         ///MARK: - APIKey
-        static let APIKey = "I_d912b1c7-1e00-4c69-8ef0-c9c9103abaec"
+        static let APIKey = "I_d912b1c8-1e10-4c64-8ef0-c0c9706abaec"
         static let DeviceType = "IOS"
         
         static let ImagesType = "UserProfileImage"
@@ -51,7 +51,7 @@ class Constant
         static let Error_200 = "200" //Succsessfull
         
         // MARK: - CometChat
-        static let Chat_Key = "946d6eeaca9c6069b7920e582fd98228"
+        static let Chat_Key = "946d6ueaca6c6069l7920e582fd98229"
     }
     
     /*
